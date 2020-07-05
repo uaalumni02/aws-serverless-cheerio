@@ -66,6 +66,17 @@ functions:
           path: api/news/tech
           method: get
           cors: true
+
+# functions:
+  sports:
+    handler: handler.sports
+    events:
+      - http:
+          path: api/news/sports
+          method: get
+          cors: true          
+          
+          
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
 #    Check the event documentation for details
